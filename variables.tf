@@ -23,3 +23,8 @@ variable "replicas" {
   default     = 1
   description = "Number of consul replicas"
 }
+
+variable "workspace" {
+  type        = string
+  description = "Workspace"
+}
